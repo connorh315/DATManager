@@ -1,0 +1,15 @@
+﻿<Window x:Class="DATManager.WorkerReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DATManager"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Extracting" Height="397.695" Width="800">
+    <Grid>
+        <Button x:Name="StopButton" Content="Stop Extracting" Margin="327,279,326.6,48" FontSize="18"/>
+        <ProgressBar x:Name="WorkerProgressBar" HorizontalAlignment="Left" Height="42" Margin="50,215,0,0" VerticalAlignment="Top" Width="700"/>
+        <TextBlock x:Name="TitleText" HorizontalAlignment="Left" Margin="50,75,0,0" TextWrapping="Wrap" Text="Currently Extracting: " VerticalAlignment="Top" Height="65" Width="700" TextAlignment="Center" FontSize="24"/>
+    </Grid>
+</Window>

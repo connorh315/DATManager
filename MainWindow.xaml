@@ -1,0 +1,29 @@
+﻿<Window x:Class="DATManager.MainWindow"
+        Name="DaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DATManager"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="DAT Manager - v1.2.0" Height="450" Width="800">
+    <Grid>
+
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="Open .DAT archive" Click="OpenDATPicker"/>
+                    <MenuItem Header="Set extract location" Click="OpenExtractPicker"/>
+                    <Separator/>
+                    <MenuItem Header="_Exit" Click="ExitProgram"/>
+                </MenuItem>
+                <MenuItem Header="_Extract">
+                    <MenuItem Header="Extract Everything" Click="ExtractAll"/>
+                </MenuItem>
+            </Menu>
+            <TreeView DockPanel.Dock="Bottom" x:Name="foldersItem" Height="Auto" Width="Auto" Background="#FFFFFFFF" BorderBrush="#FFFFFFFF" Foreground="#FFFFFFFF" />
+        </DockPanel>
+
+    </Grid>
+</Window>
