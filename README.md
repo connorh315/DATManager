@@ -28,3 +28,8 @@ Ensure you have **.NET 5** installed on your PC, then head to Releases and downl
 
 - Lego Star Wars: The Skywalker Saga (full support)
 - **Some** of the previous games, such as Lego Dimensions or LDCSV, can extract to a certain extent; support for these is considered experimental
+
+# Credits
+Due to time constraints, I've had to include a QuickBMS library into my code to help mop up some files that don't extract properly (this sounds ironic I know).
+
+QuickBMS can be found [here](https://aluigi.altervista.org/quickbms.htm)
