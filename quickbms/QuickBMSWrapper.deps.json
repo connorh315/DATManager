@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "QuickBMSWrapper/1.0.0": {
+        "runtime": {
+          "QuickBMSWrapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuickBMSWrapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

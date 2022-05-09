@@ -164,6 +164,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="quickbms\QuickBMSWrapper.deps.json" />
+    <None Include="quickbms\QuickBMSWrapper.runtimeconfig.dev.json" />
+    <None Include="quickbms\QuickBMSWrapper.runtimeconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -182,6 +185,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="quickbms\QuickBMSWrapper.dll" />
+    <Content Include="quickbms\QuickBMSWrapper.exe" />
+    <Content Include="quickbms\QuickBMSWrapper.pdb" />
+    <Content Include="quickbms\ref\QuickBMSWrapper.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
